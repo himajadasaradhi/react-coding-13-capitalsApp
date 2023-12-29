@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0;
+}
+.content-bg {
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+h1 {
+  color: #323f4b;
+  font-family: 'roboto';
+  font-size: 25px;
+}
+
+select {
+  width: 130px;
+  height: 30px;
+  margin: 5px;
+  font-weight: 500;
+}
+.select-row {
+  display: flex;
+}
+.question {
+  color: #1e293b;
+  padding: 5px;
+  font-weight: 500;
+}
+.option {
+  font-weight: 600;
+}
